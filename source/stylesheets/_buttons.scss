@@ -1,0 +1,129 @@
+.button,
+a.button,
+a:visited.button {
+  @extend .btn;
+  background-color: transparent;
+  color: $col-pink;
+  border: 2px solid $col-pink;
+  padding: 10px 23px;
+  border-radius: 22px;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: $action-btn-margin;
+  margin-right: $action-btn-margin;
+  margin-top: $action-btn-margin;
+  box-shadow: -10px 10px 8px 0px rgba(0, 0, 0, 0.16);
+  &:hover {
+    color: $col-pink;
+  }
+}
+
+.button.dark,
+a.button.dark,
+a:visited.button.dark {
+  color: white;
+  background-color: $col-pink;
+  transition: 0.5s ease;
+  &:hover {
+    box-shadow: -10px 10px 8px 0px rgba(0, 0, 0, 0.16), 0px 0px 0px 2.5px white inset;
+  }
+  &:active, &:focus {
+    transform: scale(0.95, 0.95), translate(-0.8885px, 1px);
+    box-shadow: -2px 2px 8px 0px rgba(0, 0, 0, 0.16), 0px 0px 0px 2.5px white inset;
+  }
+}
+
+a.outline-button svg {
+  text {
+    fill: $col-pink;
+    transition: fill 0.5s ease;
+  }
+  &:hover, &:focus {
+    text {
+      fill: #FFF;
+      transition: fill 0.5s ease;
+    }
+  }
+
+  &#visit_drugbank {
+    #fill-1 {
+      width: 0px;
+      transition: width 0.5s ease;
+    }
+    #fill-2 {
+      width: 0px;
+      transform: translateX(123.584px);
+      transition: width 0.5s ease, transform 0.5s ease;
+    }
+    &:hover, &:focus {
+      text {
+        fill: #FFF;
+        transition: fill 0.5s ease;
+      }
+      #fill-1 {
+        width: 104.814px;
+        transition: width 0.5s ease;
+      }
+
+      #fill-2 {
+        width: 104.814px;
+        transform: translateX(17.77px);
+        transition: width 0.5s ease, transform 0.5s ease;
+      }
+    }
+  }
+  &#learn_more {
+    #fill-1 {
+      width: 0px;
+      transition: width 0.5s ease;
+    }
+    #fill-2 {
+      width: 0px;
+      transform: translateX(97.584px);
+      transition: width 0.5s ease, transform 0.5s ease;
+    }
+    &:hover, &:focus {
+      text {
+        fill: #FFF;
+        transition: fill 0.5s ease;
+      }
+      #fill-1 {
+        width: 79.814px;
+        transition: width 0.5s ease;
+      }
+
+      #fill-2 {
+        width: 79.814px;
+        transform: translateX(17.77px);
+        transition: width 0.5s ease, transform 0.5s ease;
+      }
+    }
+  }
+  &#contact_us {
+    #fill-1 {
+      width: 0px;
+      transition: width 0.5s ease;
+    }
+    #fill-2 {
+      width: 0px;
+      transform: translateX(108.584px);
+      transition: width 0.5s ease, transform 0.5s ease;
+    }
+    &:hover, &:focus {
+      text {
+        fill: #FFF;
+        transition: fill 0.5s ease;
+      }
+      #fill-1 {
+        width: 89.814px;
+        transition: width 0.5s ease;
+      }
+
+      #fill-2 {
+        width: 89.814px;
+        transform: translateX(17.77px);
+        transition: width 0.5s ease, transform 0.5s ease;
+      }
+    }
+  }
+}

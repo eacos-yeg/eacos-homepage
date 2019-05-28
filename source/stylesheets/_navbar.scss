@@ -1,0 +1,214 @@
+#navbar {
+  background-color: transparent;
+  border: none;
+  margin-top: $navbar-margin-bottom;
+  @media (min-width: 768px) {
+    ul.nav li.dropdown:hover > .dropdown-menu {
+      display: flex;
+      left: 50%;
+      right: auto;
+      transform: translateX(-50%);
+      &.sign-in-dropdown {
+        left: auto;
+        right: 0;
+        transform: none;
+        .triangle {
+          left: auto;
+          right: 30px;
+        }
+      }
+    }
+    .navbar-right {
+      display: flex;
+      align-items: center;
+      height: $navbar-height;
+    }
+  }
+  @media (min-width: 992px) {
+    ul.nav li.dropdown:hover > .dropdown-menu.sign-in-dropdown {
+      display: flex;
+      left: 50%;
+      right: auto;
+      transform: translateX(-50%);
+      .triangle {
+        left: calc(50% - 10px);;
+        right: auto;
+      }
+    }
+  }
+
+  ul.nav {
+    a, a:visited {
+      white-space: nowrap;
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+    }
+    a:hover, a:visited {
+      opacity: 0.75;
+    }
+    li.open {
+      & > .dropdown-menu {
+        display: none;
+      }
+      a {
+        background-color: transparent;
+      }
+    }
+    .dropdown-menu {
+      border: none;
+      border-radius: 10px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+      padding: 5px;
+      ul {
+        list-style: none;
+        width: 100%;
+        padding: 0px;
+        margin: 10px 10px;
+        li {
+          padding: 5px 5px 5px 35px;
+          font-size: 14px;
+          font-weight: normal;
+          line-height: 22px;
+          color: $col-dark-blue;
+
+          &.link-header {
+            display: flex;
+            font-size: 16px;
+            font-weight: bold;
+            line-height: 20px;
+            text-transform: uppercase;
+            color: $col-pink;
+            padding: 5px;
+            min-width: 100px;
+            min-height: 30px;
+          }
+          &.link-sub-header {
+            padding: 0px 5px 5px 35px;
+            color: $col-pink;
+          }
+          &.inner-header {
+            padding-top: 15px;
+          }
+        }
+      }
+      ul.bordered {
+        margin-left: 0px;
+      }
+      a {
+        color: $col-dark-blue;
+        font-weight: normal;
+        &:hover {
+          text-decoration: none;
+        }
+      }
+      .triangle {
+        position: absolute;
+        top: -10px;
+        left: calc(50% - 10px);
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid white;
+      }
+    }
+  }
+
+ 
+
+
+
+
+  @media (max-width: 431px) {
+    .navbar-collapse {
+      &.collapse.in {
+        ul.nav {
+          li.small-item {
+            width: 100% !important;
+          }
+          .dropdown-menu {
+            flex-wrap: wrap !important;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 767px) {
+    .navbar-collapse {
+      &.collapsing {
+        -webkit-transition: none;
+        transition: none;
+        display: none;
+      }
+      &.collapse.in {
+        position: absolute;
+        background-color: white;
+        width: calc(100% - 30px);
+        top: $navbar-height;
+        left: 15px;
+        margin: 0px;
+        border-radius: 4px;
+        box-shadow: 0 20px 100px -30px $col-dark-grey;
+        overflow: hidden;
+
+        ul.nav {
+          margin-top: 10px;
+          margin-bottom: -5px;
+          & > li > a {
+            color: $col-blue;
+            &.dropdown-toggle {
+              display: none;
+            }
+          }
+          li.small-item {
+            display: inline-block;
+            width: 50%;
+            vertical-align: top;
+            .dropdown-menu {
+              min-width: auto;
+            }
+          }
+          .dropdown-menu {
+            display: flex;
+            position: relative;
+            width: 100%;
+            border-radius: 0px;
+            box-shadow: none;
+            background-color: transparent;
+            &.wide-menu {
+              flex-direction: column;
+            }
+            ul {
+              padding: 0px;
+              margin: 0px 15px 15px;
+              flex-grow: 1;
+              flex-basis: 50%;
+            }
+            ul.bordered {
+              padding-left: 15px;
+              margin-left: 0px;
+            }
+            a {
+              white-space: normal;
+            }
+            .triangle {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#navbar.dark {
+ ul.nav {
+    a, a:visited {
+      color: $col-dark-blue;
+    }
+  }
+}

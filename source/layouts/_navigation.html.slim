@@ -1,0 +1,21 @@
+nav#navbar class="navbar navbar-default navbar-static-top #{current_page.data.navstyle}" role="navigation"
+  .container
+    .navbar-header
+      - if current_page.data.navstyle == "dark"
+        = link_to "EACOS", site_url, class: "navbar-brand"
+      - else
+        = link_to "EACOS", site_url, site_url, class: "navbar-brand"
+      button.navbar-toggle.collapsed type="button" data-toggle="collapse" data-target="#main-nav"
+        span.sr-only Toggle navigation
+        - if current_page.data.navstyle == "dark"
+          = image_tag('Mobile_Hamburger.svg')
+        - else
+          = image_tag('Mobile_Hamburger_White.svg')
+    #main-nav.navbar-collapse.collapse
+      ul.nav.navbar-nav.navbar-right
+        li
+          a href="/about" role="button" Who Are We?
+        li
+          a href="/goals" role="button" Our Goals
+        li
+          a  href="/contact" role="button" Contact Us
