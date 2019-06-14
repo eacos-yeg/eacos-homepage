@@ -3,18 +3,23 @@ navstyle: "dark"
 title: "EACOS - HomePage"
 ---
 
-#home-header.panel.header-panel: .overflow-panel: .container
+#home-header.panel.header-panel
+  .container
+    #home-banner-position
+      #home-left-banner-con 
+        = partial "/images/home/banner-graphics-left.svg"
+      #home-right-banner-con
+        = partial "/images/home/banner-graphics-right.svg"
 
-  h1 EACOS
-  p Edmonton's Entrepreneurial Advisory Council on Startups
+  #eacos-header-home.overflow-panel: .container
+
+    h1 EACOS
+    p Edmonton Advisory Council on Startups
 
 
 #intro-homepage.panel.centered-panel: .container
   p
-    | EACOS is Edmonton's Entrepreurial Advisory  Council on Startups. We are a
-      group of 12 entrepreneurs composed of 3 early stagee founders, 3 startup
-      stage founders, 2 scaleup founders and 2 investors and 2 students.
-
+    | EACOS is an advocate for Edmonton’s tech-enabled startup community. We are comprised of 13 individuals from scaleups, startups, seed companies, students, and investors. Our mandate is to be a voice for our peer-startups, activating and aligning resources with the needs of our technology community at large.
 
 #home-goals-panel.panel: .container
   h2 Current Goals

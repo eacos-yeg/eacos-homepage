@@ -1,13 +1,69 @@
 #home-header {
+  position: relative;
 
+  .container {
+    padding: 0 !important;
+  }
+}
+
+#home-left-banner-con {
+  width: 209px;
+  position: relative;
+  overflow: visible;
+}
+
+#home-right-banner-con {
+  position: relative;
+  margin-left: 209px;
+  overflow: visible;
+}
+
+// SVG element
+svg#left-home-banner {
+  position: absolute;
+  height: 903px;
+  width: 625px;
+  right: 0;
+  top: 0;
+  z-index: 0;
+}
+
+svg#right-home-banner {
+  position: absolute;
+  height: 903px;
+  width: 1066px;
+  left: 0;
+  top: 0;
+  z-index: 0;
+}
+
+.panel, .overflow-panel {
+  z-index: 10;
+  position: relative;
+  background: transparent;
+}
+
+
+#eacos-header-home {
+  max-width: 500px;
+  text-align: center;
+  color: white;
+  margin-top: 227px;
+  h1 {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
 }
 
 #intro-homepage {
-  background: $col-purple;
-  color: white;
-  
+  /*background: $col-purple;*/
+  color: black;
+    padding-top: 550px;
+
   p {
     max-width: 500px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
 }
 
