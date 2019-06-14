@@ -1,7 +1,10 @@
+// Import font
+@import url('https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap');
+
 // Layout Stylesheets
 @import "_constants";
 @import '_bootstrap';
-@import '_animate';
+@import '_aos';
 
 
 @import '_navbar';
