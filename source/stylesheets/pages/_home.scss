@@ -16,16 +16,6 @@ $home-center-width: 545px;
   overflow: visible;
 }
 
-// SVG element
-/*svg#left-home-banner {*/
-  /*position: absolute;*/
-  /*height: 903px;*/
-  /*width: 625px;*/
-  /*right: 0;*/
-  /*top: 0;*/
-  /*z-index: 0;*/
-/*}*/
-
 svg#svg-home-banner {
   position: absolute;
   height: 903px;
@@ -35,15 +25,6 @@ svg#svg-home-banner {
   z-index: 0;
 
 }
-
-/*svg#right-home-banner {*/
-  /*position: absolute;*/
-  /*height: 903px;*/
-  /*width: 1066px;*/
-  /*left: 0;*/
-  /*top: 0;*/
-  /*z-index: 0;*/
-/*}*/
 
 .panel, .overflow-panel {
   z-index: 10;
