@@ -1,41 +1,49 @@
+$home-center-width: 545px;
+
 #home-header {
   position: relative;
-
-  .container {
-    padding: 0 !important;
-  }
+  margin: 0 !important;
+  width: 100%;
+  padding: 0 !important;
 }
 
-#home-left-banner-con {
-  width: 209px;
+#home-banner-container {
+  width: $home-center-width;
+  left: -625px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  overflow: visible;
-}
-
-#home-right-banner-con {
-  position: relative;
-  margin-left: 209px;
   overflow: visible;
 }
 
 // SVG element
-svg#left-home-banner {
-  position: absolute;
-  height: 903px;
-  width: 625px;
-  right: 0;
-  top: 0;
-  z-index: 0;
-}
+/*svg#left-home-banner {*/
+  /*position: absolute;*/
+  /*height: 903px;*/
+  /*width: 625px;*/
+  /*right: 0;*/
+  /*top: 0;*/
+  /*z-index: 0;*/
+/*}*/
 
-svg#right-home-banner {
+svg#svg-home-banner {
   position: absolute;
   height: 903px;
-  width: 1066px;
+  width: 1691px;
   left: 0;
   top: 0;
   z-index: 0;
+
 }
+
+/*svg#right-home-banner {*/
+  /*position: absolute;*/
+  /*height: 903px;*/
+  /*width: 1066px;*/
+  /*left: 0;*/
+  /*top: 0;*/
+  /*z-index: 0;*/
+/*}*/
 
 .panel, .overflow-panel {
   z-index: 10;
@@ -44,13 +52,15 @@ svg#right-home-banner {
 }
 
 #home-header-text {
+  z-index: 10;
   text-align: center;
   color: white;
-
-  .container {
-    margin-top: 227px;
-    max-width: 500px;
-  }
+  overflow: hidden;
+  margin-top: 0;
+  padding-top: 270px;
+  margin-left: auto;
+  margin-right: auto;
+  width:  $home-center-width;
 
   h1 {
     font-weight: bold;

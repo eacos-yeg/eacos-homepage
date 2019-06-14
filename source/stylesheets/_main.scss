@@ -3,6 +3,10 @@ html {
   min-height: 100%;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 body, li, p, a {
   font-weight: 400;
 }

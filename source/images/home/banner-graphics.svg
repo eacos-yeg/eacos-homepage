@@ -1,23 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 3382.8 1807.1" enable-background="new 0 0 3382.8 1807.1" xml:space="preserve">
-<g id="Group_1248" transform="translate(344 0.456)">
-	<rect id="Rectangle_64" x="1450.2" y="397" fill="#2B352A" width="1588.6" height="938.1"/>
-	<path id="Path_458" fill="#FCECD6" d="M1450,1335c-300.4,0-544-243.6-544-544h1088C1994,1091.4,1750.4,1335,1450,1335z"/>
-	<rect id="Rectangle_65" x="1450.2" y="791" fill="#FCECD6" width="1588.6" height="544.1"/>
-	<rect id="Rectangle_10" x="1989" y="0" fill="#756C64" width="1049.6" height="397.1"/>
-	<rect id="Rectangle_44" x="906" y="0" fill="#4F4C8A" width="1087.6" height="788.6"/>
-	<path id="Path_457" fill="#707B75" d="M1450,246.8c-300.4,0-544,243.6-544,544h1088C1994,490.3,1750.5,246.8,1450,246.8z"/>
-	<rect id="Rectangle_7" x="0" y="0" fill="#2B352A" width="907" height="1806.6"/>
-	<path id="Path_422" fill="#DF624D" d="M698.2-0.5C583.2-0.5,490,92.8,490,207.8h416.4C906.4,92.8,813.2-0.5,698.2-0.5z"/>
-	<path id="Path_423" fill="#DF624D" d="M698.2,208c-115,0-208.2,93.2-208.2,208.2h416.4C906.4,301.2,813.2,208,698.2,208z"/>
-	<circle id="Ellipse_4" fill="#DF624D" cx="2388.7" cy="396.6" r="394.6"/>
-	<path id="Path_459" fill="#FFFFFF" d="M1450,791.2h320.2L1450,1111.4V791.2z"/>
-	<path id="Path_460" fill="#FFFFFF" d="M1770.2,791.2h320.2l-320.2,320.2V791.2z"/>
-	<path id="Path_461" fill="#FFFFFF" d="M2089.8,791.2H2410l-320.2,320.2V791.2z"/>
-	<path id="Path_424" fill="#756C64" d="M906,416.6v661.8H489L906,416.6z"/>
-	<path id="Path_464" fill="#756C64" d="M490,416.6v661.8H73L490,416.6z"/>
-	<path id="Path_465" fill="#756C64" d="M73,416.6v661.8h-417L73,416.6z"/>
-</g>
+<svg id="svg-home-banner" xmlns="http://www.w3.org/2000/svg" width="1691" height="903" viewBox="0 0 3382.789 1807.096">
+  <g id="Group_1248" data-name="Group 1248" transform="translate(344 0.456)">
+    <rect id="Rectangle_64" data-name="Rectangle 64" width="1588.635" height="938.071" transform="translate(1450.154 397)" fill="#2b352a"/>
+    <path id="Path_458" data-name="Path 458" d="M2089.41,350.01c-300.44,0-544-243.557-544-544h1088C2633.41,106.453,2389.854,350.01,2089.41,350.01Z" transform="translate(-639.407 984.991)" fill="#fcecd6"/>
+    <rect id="Rectangle_65" data-name="Rectangle 65" width="1588.635" height="544.071" transform="translate(1450.154 791)" fill="#fcecd6"/>
+    <rect id="Rectangle_10" data-name="Rectangle 10" width="1049.635" height="397.071" transform="translate(1989.007 0)" fill="#756c64"/>
+    <rect id="Rectangle_44" data-name="Rectangle 44" width="1087.639" height="788.639" transform="translate(906.037 0)" fill="#4f4c8a"/>
+    <path id="Path_457" data-name="Path 457" d="M2089.41-193.991c-300.44,0-544,243.557-544,544h1088C2633.411,49.566,2389.854-193.991,2089.41-193.991Z" transform="translate(-639.403 440.742)" fill="#707b75"/>
+    <rect id="Rectangle_7" data-name="Rectangle 7" width="907.043" height="1806.639" transform="translate(-0.006 0)" fill="#2b352a"/>
+    <path id="Path_422" data-name="Path 422" d="M1753.619-193.991c-114.989,0-208.206,93.217-208.206,208.207h416.413C1961.826-100.774,1868.609-193.991,1753.619-193.991Z" transform="translate(-1055.407 193.536)" fill="#df624d"/>
+    <path id="Path_423" data-name="Path 423" d="M1753.619-193.991c-114.989,0-208.206,93.217-208.206,208.207h416.413C1961.826-100.774,1868.609-193.991,1753.619-193.991Z" transform="translate(-1055.407 401.95)" fill="#df624d"/>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="394.569" cy="394.569" r="394.569" transform="translate(1994.154 2.071)" fill="#df624d"/>
+    <path id="Path_459" data-name="Path 459" d="M0,0H320.209L0,320.209Z" transform="translate(1450.007 791.187)" fill="#fff"/>
+    <path id="Path_460" data-name="Path 460" d="M0,0H320.209L0,320.209Z" transform="translate(1770.216 791.187)" fill="#fff"/>
+    <path id="Path_461" data-name="Path 461" d="M0,0H320.209L0,320.209Z" transform="translate(2089.798 791.187)" fill="#fff"/>
+    <path id="Path_424" data-name="Path 424" d="M417.031,0V661.827H0Z" transform="translate(489 416.64)" fill="#756c64"/>
+    <path id="Path_464" data-name="Path 464" d="M417.031,0V661.827H0Z" transform="translate(73 416.64)" fill="#756c64"/>
+    <path id="Path_465" data-name="Path 465" d="M417.031,0V661.827H0Z" transform="translate(-344 416.64)" fill="#756c64"/>
+  </g>
 </svg>
