@@ -18,3 +18,10 @@ html
     = partial 'layouts/navigation'
     = yield
     footer = partial 'layouts/footer'
+
+
+  javascript:
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-sine',
+    });

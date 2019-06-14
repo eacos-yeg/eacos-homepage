@@ -43,12 +43,15 @@ svg#right-home-banner {
   background: transparent;
 }
 
-
-#eacos-header-home {
-  max-width: 500px;
+#home-header-text {
   text-align: center;
   color: white;
-  margin-top: 227px;
+
+  .container {
+    margin-top: 227px;
+    max-width: 500px;
+  }
+
   h1 {
     font-weight: bold;
     margin-bottom: 0;
@@ -58,7 +61,7 @@ svg#right-home-banner {
 #intro-homepage {
   /*background: $col-purple;*/
   color: black;
-    padding-top: 550px;
+  padding-top: 550px;
 
   p {
     max-width: 500px;
