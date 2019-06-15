@@ -196,5 +196,61 @@ svg#home-celebration-community-img {
 }
 
 
+#home-action-panel {
+  margin-top: 204px;
+  background: #4F4C8A;
+  color: white;
+  padding-top: 68px;
+  padding-bottom: 68px;
+  overflow: hidden;
+
+  h3 {
+    text-transform: uppercase;
+  }
+
+  a, a:visited, a:hover, a:focus {
+    text-decoration: none;
+    color: white;
+  }
+
+  p {margin-top: 20px;}
+
+  .content {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+  }
+  .left-col {
+    padding-right: 68px;
+    right: 408px;
+    position: absolute;
+
+    h3 {
+      margin-top: 0;
+      text-align: right;
+    }
+  }
+  .right-col {
+    margin-left: 272px;
+  }
+
+  .actions .col {
+    width: 50%;
+    float: left;
+    h3 {font-size: 18px;}
+
+    &:first-child {
+      padding-right: 10px;
+    }
+    &:last-child {
+      padding-left: 10px;
+    }
+  }
+
+}
+
+
+
 
 

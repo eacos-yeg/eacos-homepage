@@ -1,21 +1,12 @@
-.container
+#footer: .container
   .row
-    .col-sm-4.logo-col
+    #footer-logo.col-md-2
       = link_to "EACOS", site_url, class: "footer-brand"
+    #footer-text.col-md-4
+      | Edmonton Advisory Council on Startups
+    #footer-social.col-md-6
       .social-icons.mobile-only
         = link_to social_icon('linkedin')
         = link_to social_icon('twitter')
         = link_to social_icon('facebook')
 
-    .col-sm-3.hide-mobile
-
-    .col-sm-2.hide-mobile
-
-  .row.links-row
-    .col-sm-4
-    .col-sm-6
-    .col-sm-2.terms-col.mobile-only
-    .col-sm-2.social-icons.hide-mobile
-      /= link_to social_icon('linkedin')
-      /= link_to social_icon('twitter')
-      /= link_to social_icon('facebook')

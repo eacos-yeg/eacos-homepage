@@ -216,3 +216,23 @@ h1, h2, h3, h4, h5 {
     }
   }
 }
+
+#footer {
+  padding: 25px;
+  color: #A7A5C4;
+
+  a.footer-brand {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+
+    &:visited, &:hover, &:focus {
+      color: #A7A5C4;
+    }
+  }
+
+  #footer-text {
+    line-height: 22px;
+  }
+}
+
