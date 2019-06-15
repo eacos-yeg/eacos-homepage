@@ -7,43 +7,64 @@ title: "EACOS - HomePage"
   #home-banner-container
     = partial "/images/home/banner-graphics.svg"
 
-  #home-header-text data-aos="fade-down" data-aos-delay=600
+  #home-header-text data-aos="fade-in" data-aos-delay=600
       h1  EACOS
       p Edmonton Advisory Council on Startups
 
 
-#intro-homepage.panel.centered-panel: .container
-  p data-aos="fade-right"
-    | EACOS is an advocate for Edmonton’s tech-enabled startup community. We are comprised of 13 individuals from scaleups, startups, seed companies, students, and investors. Our mandate is to be a voice for our peer-startups, activating and aligning resources with the needs of our technology community at large.
+#intro-homepage.panel.centered-panel
+  #home-intro-lines-container data-aos="slide-right"
+    = partial "/images/home/lines.svg"
+  .container
+    p data-aos="fade-in"
+      | EACOS is an advocate for Edmonton’s tech-enabled startup community. We are comprised of 13 individuals from scaleups, startups, seed companies, students, and investors. Our mandate is to be a voice for our peer-startups, activating and aligning resources with the needs of our technology community at large.
 
 
-#home-goals-panel.panel: .container
-  h2 Current Goals
-  p
+#home-goals-intro-panel: .container
+  h2 data-aos="fade-in" Our<br>Goals
+  #home-goals-background data-aos="slide-left"
+  p data-aos="fade-in"
     | For 2019 we have organized our goals into 3 themes. We have selected a
       series of goals and themes that we are advocating for over the next year.
       We have chosen to focus on these goals because we believe they can have a
       big impact on the community in a short amount of time.
 
-  ul#goals-list: .row
-    li.goal.col-sm-4: .content
-      h3 Startup Funding
-      p
-        | We have identified a number of gaps in startup funding for early stage
-          startups in particular for early stage startups.
-      .action-buttons
-        = link_to "Learn more", "/goals/2019/funding", class: "btn btn-info"
-    li.goal.col-sm-4: .content
-      h3 Service Providers
-      p
-        | We have identified a number of gaps in startup funding for early stage
-          startups in particular for early stage startups.
-      .action-buttons
-        = link_to "Learn more", "/goals/2019/funding", class: "btn btn-info"
-    li.goal.col-sm-4: .content
-      h3 Celebration and Community
-      p
-        | We have identified a number of gaps in startup funding for early stage
-          startups in particular for early stage startups.
-      .action-buttons
-        = link_to "Learn more", "/goals/2019/funding", class: "btn btn-info"
+#service-provider-panel.home-goals-panel.left
+  .img-container
+    = partial "/images/home/service-provider.svg"
+  .text-container data-aos="fade"
+    h3 Service Provider Alignment
+    p
+      | EACOS believes that publicly-funded service providers (entities with
+        programs and mandates aiming to support and grow the startup/innovation
+        ecosystem such as Startup Edmonton & TEC Edmonton) have a critical role to
+        play in the growth and success of a startup community.
+    p
+      = link_to "Learn More →", "goals/2019/service-provider.html"
+
+
+#celebration-community-panel.home-goals-panel.right
+  .img-container
+    = partial "/images/home/celebration-community.svg"
+  .text-container data-aos="fade"
+    h3 Building a Strong Community
+    p
+      | We believe that a healthy startup community is built deliberately and
+        at a grass-roots level with entrepreneurs taking the lead.
+    p
+      = link_to "Learn More →", "goals/2019/community.html"
+
+
+#tech-community-panel.home-goals-panel.left
+  .img-container
+    = partial "/images/home/tech-community.svg"
+  .text-container data-aos="fade"
+    h3 Increasing Deployment of Private Capital
+    p
+      | EACOS’s objective is to not only identify levers for action which may
+        increase private capital deployed in Edmonton, but to address the
+        underlying issue of increasing the number of investment-ready companies
+        in Edmonton.
+    p
+      = link_to "Learn More →", "goals/2019/capital.html"
+

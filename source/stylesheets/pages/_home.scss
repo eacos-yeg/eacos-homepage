@@ -50,31 +50,151 @@ svg#svg-home-banner {
 }
 
 #intro-homepage {
-  /*background: $col-purple;*/
   color: black;
-  padding-top: 550px;
+  padding-top: 350px;
 
   p {
-    max-width: 500px;
-    padding-left: 25px;
+    max-width: 700px;
+    padding-left: 200px;
     padding-right: 25px;
   }
 }
 
-#home-goals-panel {
+#home-intro-lines-container {
+  width: 545px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: visible;
+  z-index: 10;
+  position: relative;
+}
 
-  ul#goals-list {
-    padding-left: 0;
-    list-style: none;
+svg#home-intro-lines {
+  width: 268px;
+  height: 87px;
+  position: absolute;
+  left: -196px;
+  top: 20px;
+}
 
-    li.goal {
-      display: block;
 
-      .content {
-        /*margin: 20px;*/
-        /*padding: 20px;*/
-      }
+#home-goals-intro-panel {
+  color: white;
+  margin-top: 80px;
+
+  .container {
+    position: relative;
+    max-width: 800px;
+  }
+
+  h2 {
+    position: absolute;
+    z-index: 10;
+    padding: 50px;
+    display: block;
+    width: 200px;
+    margin: 0;
+    text-align: right;
+    text-transform: uppercase;
+    padding-right: 0;
+  }
+
+  #home-goals-background {
+    height: 100%;
+    background: #6f7b74;
+    width: 866px;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+  }
+
+  p {
+    color: white;
+    font-size: 18px;
+    position: relative;
+    /*max-width: 700px;*/
+    padding: 50px;
+    padding-left: 250px;
+  }
+}
+
+svg#service-provider-home-img {
+  width: 620px;
+  height: 342px;
+  top: -68px;
+}
+
+svg#home-tech-community-img {
+  width: 408px;
+  height: 448px;
+  top: -68px;
+}
+
+svg#home-celebration-community-img {
+  width:720px;
+  height: 401px;
+  top: -136px;
+}
+
+.home-goals-panel {
+  margin-top: 204px;
+  max-width: 816px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  height: 342px;
+
+  .img-container {
+    width: 620px;
+    position: absolute;
+    z-index: 1;
+
+    svg {
+      position: absolute;
+    }
+  }
+
+  .text-container {
+    margin: 0;
+    z-index: 10;
+    position: relative;
+    width: 340px; 
+  }
+
+  &.left {
+    .img-container  {
+      right: 408px;
+      svg {right: 0}
+    }
+
+    .text-container {
+      margin-left: auto;
+    }
+  }
+
+  &.right {
+    .img-container  {
+      left: 408px;
+      svg {left: 0}
+      
+    }
+
+    .text-container {
+      margin-right: auto;
     }
   }
 
 }
+
+
+#celebration-community-panel.home-goals-panel  {
+  margin-top: 68px;
+}
+
+#tech-community-panel.home-goals-panel  {
+  margin-top: 136px;
+}
+
+
+
+

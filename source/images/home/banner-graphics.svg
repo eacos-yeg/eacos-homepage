@@ -11,11 +11,11 @@
       <rect id="Rectangle_10" data-name="Rectangle 10" width="1049.635" height="397.071" transform="translate(1989.007 0)" fill="#756c64"/>
       <circle id="Ellipse_4" data-name="Ellipse 4" cx="394.569" cy="394.569" r="394.569" transform="translate(1994.154 2.071)" fill="#df624d"/>
     </g>
-    <g data-aos="slide-down" data-aos-duration=800 >
+    <g data-aos="slide-down" data-aos-duration="800" >
       <rect id="Rectangle_44" data-name="Rectangle 44" width="1087.639" height="788.639" transform="translate(906.037 0)" fill="#4f4c8a"/>
       <path id="Path_457" data-name="Path 457" d="M2089.41-193.991c-300.44,0-544,243.557-544,544h1088C2633.411,49.566,2389.854-193.991,2089.41-193.991Z" transform="translate(-639.403 440.742)" fill="#707b75"/>
     </g>
-    <rect data-aos="fade-up" data-aos-duration=800 id="Rectangle_7" data-name="Rectangle 7" width="907.043" height="1806.639" transform="translate(-0.006 0)" fill="#2b352a"/>
+    <rect data-aos="fade-up" data-aos-duration="800" id="Rectangle_7" data-name="Rectangle 7" width="907.043" height="1806.639" transform="translate(-0.006 0)" fill="#2b352a"/>
     <g data-aos="fade-right" >
       <path id="Path_422" data-name="Path 422" d="M1753.619-193.991c-114.989,0-208.206,93.217-208.206,208.207h416.413C1961.826-100.774,1868.609-193.991,1753.619-193.991Z" transform="translate(-1055.407 193.536)" fill="#df624d"/>
       <path id="Path_423" data-name="Path 423" d="M1753.619-193.991c-114.989,0-208.206,93.217-208.206,208.207h416.413C1961.826-100.774,1868.609-193.991,1753.619-193.991Z" transform="translate(-1055.407 401.95)" fill="#df624d"/>
