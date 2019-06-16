@@ -1,0 +1,112 @@
+
+.goal-container {
+  position: relative;
+  width: 816px;
+  margin-right: auto;
+  margin-left: auto;
+  /*max-width: 816px;*/
+  /*margin: 0px 100px;*/
+  /*min-width: calc(100% - 200px);*/
+}
+
+svg#sp-banner {
+  height: 623px;
+  width: 1520px;
+}
+
+
+#service-provider-banner-image {
+  position: absolute;
+  right: -300px;
+  z-index: 0;
+}
+
+#goals-overview-page {
+  .header {
+    height: 337px;
+    width: 476px;
+    margin-left: 68px;
+    padding-top: 158px;
+
+    h1{
+      color: white;
+      margin-top: 0;
+      font-size: 45px;
+      z-index: 10;
+      position: relative;
+    }
+  }
+
+  .goals-intro {
+    width: 516px;
+    height: 286px;
+    p {
+      font-size: 16px;
+      padding: 68px;
+    }
+  }
+}
+
+#goals-listing {
+  background: #4F4C8A;
+  color: white;
+  padding-top: 68px;
+  overflow: hidden;
+
+  .goal-container {
+    padding-left: 68px;
+    padding-right: 68px;
+  }
+
+
+
+  ol {
+    padding-left: 14px;
+    position: relative;
+    z-index: 10;
+  }
+
+  h3 {
+    text-transform: uppercase;
+    position: relative;
+    z-index: 10;
+  }
+
+  .goal {
+    position: relative;
+    .bar {
+      width: 15px;
+      height: 70px;
+      background: #DF624D;
+      z-index: 1;
+      position: absolute;
+      top: -28px;
+      left: -3px;
+    }
+    .bar.two {left: 20px;}
+    .bar.three {left: 45px;}
+    .bar.four {left: 55px;}
+  }
+
+
+  .left-col {
+    width: 272px;
+    float: left;
+    margin-right: 68px;
+
+    .goal {
+      margin-top: 100px;  
+    }
+
+  }
+  .right-col {
+    width: 272px;
+    float: left;
+    margin-left: 68px;
+    .goal {
+      margin-top: 200px;  
+    }
+  }
+}
+
+

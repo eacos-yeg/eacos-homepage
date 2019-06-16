@@ -2,58 +2,82 @@
 title: "EACOS - Service Provider"
 ---
 
-#goals-overview-page: .container
-  .header.row: .col-md-8
+#goals-overview-page: .goal-container
+  #service-provider-banner-image
+    = partial "/images/service-provider/sp-banner.svg"
+  .header
     h1 Service Provider Alignment
 
-  .goals-intro.row: .col-md-8
+  .goals-intro
     p
-      | EACOS believes that publicly-funded service providers (entities with programs
-        and mandates aiming to support and grow the startup/innovation ecosystem such
-        as Startup Edmonton & TEC Edmonton) have a critical role to play in the growth
-        and success of a startup community. However, we feel that Edmonton’s service
-        provider community has under-communicated their mandates and metrics, and
-        under-involved entrepreneurs, creating a divide between these organizations and
-        the communities they serve. Service providers are guided by the mandates and
-        metrics of their funders (such as Innovate Edmonton, EEDC, Alberta Innovates or
-        Post-Secondaries), and need to realign with the community they provide value
-        to. Stronger partnerships between service providers, and the entrepreneurs and
-        companies they serve will result in more synergistic, transparent, and
-        ultimately valuable relationships which will contribute to community growth and
-        increased throughput.
+      | EACOS is an advocate for Edmonton’s tech-enabled startup community. We
+        are comprised of 13 individuals from scaleups, startups, seed companies,
+        students, and investors. Our mandate is to be a voice for our
+        peer-startups, activating and aligning resources with the needs of our
+        technology community at large.
 
 
+#goals-listing: .goal-container
+  p
+    | EACOS believes that publicly-funded service providers (entities with programs
+      and mandates aiming to support and grow the startup/innovation ecosystem such
+      as Startup Edmonton & TEC Edmonton) have a critical role to play in the growth
+      and success of a startup community. However, we feel that Edmonton’s service
+      provider community has under-communicated their mandates and metrics, and
+      under-involved entrepreneurs, creating a divide between these organizations and
+      the communities they serve.
+  p
+    | Service providers are guided by the mandates and
+      metrics of their funders (such as Innovate Edmonton, EEDC, Alberta Innovates or
+      Post-Secondaries), and need to realign with the community they provide value
+      to. Stronger partnerships between service providers, and the entrepreneurs and
+      companies they serve will result in more synergistic, transparent, and
+      ultimately valuable relationships which will contribute to community growth and
+      increased throughput.
 
-  #goals-listing.row
-    .left-col.col-md-4
+  .goal-listings
+    .left-col
+
+      .goal
+        .count
+          .bar
+        h3 We believe that the entrepreneurial community should:
+        ol
+          li Be actively engaged and open-minded in discussions with the service provider community
+          li Strive to represent the collective interests of the community in discussions and consultations vs. their own company’s specific needs and issues
 
 
-      h3 EACOS believes that Edmonton’s entrepreneurial community should:
-      ol
-        li Be actively engaged and open-minded in discussions with the service provider community
-        li Strive to represent the collective interests of the community in discussions and consultations vs. their own company’s specific needs and issues
+      .goal
+        .count
+          .bar
+          .bar.two
+        h3 We believe that the funders should:
+        ol
+          li Encourage and incentivize the service providers they fund to be more communicative, transparent, and inclusive of the entrepreneurial community
+          li Encourage and incentivize the service providers they fund to proactively involve current entrepreneurs in their goal-setting and metric-setting exercises
+          li Engage current entrepreneurs in broader discussions on the objectives, goals, and purpose of the service provider community as a whole
 
-      h3 EACOS believes that Edmonton’s entrepreneurial service provider community should:
-      ol
-        li Clearly, consistently, and transparently communicate their offerings, mandates and metrics and demonstrate how they align to the needs of the entrepreneurial community - in particular, how to move from an idea to a company which is attractive to investment.
-        li Work closely with current entrepreneurs to assess these offerings, mandates and metrics, on at least an annual basis, through consultations, town halls, etc. 
-        li Be open to realignment or simplification of their offerings, mandates and metrics to clearly reflect that their purpose is to serve the community (vs. their funders).
-        li Collaborate and align funding with other service providers and funders to ensure that the system is efficient, simple, has minimal and justified overlap, and has KPIs, mandates and visions which, although unique, are compatible and drive towards the goal of both increased throughput and growth of the startup ecosystem.
-    .right-col.col-md-4
+    .right-col
 
-      h3 EACOS believes that the Funders should:
-      ol
-        li Encourage and incentivize the service providers they fund to be more communicative, transparent, and inclusive of the entrepreneurial community
-        li Encourage and incentivize the service providers they fund to proactively involve current entrepreneurs in their goal-setting and metric-setting exercises
-        li Engage current entrepreneurs in broader discussions on the objectives, goals, and purpose of the service provider community as a whole
+      .goal
+        .count
+          .bar
+          .bar.two
+          .bar.three
+        h3 We believe that the entrepreneurial service provider community should:
+        ol
+          li Clearly, consistently, and transparently communicate their offerings, mandates and metrics and demonstrate how they align to the needs of the entrepreneurial community - in particular, how to move from an idea to a company which is attractive to investment.
+          li Work closely with current entrepreneurs to assess these offerings, mandates and metrics, on at least an annual basis, through consultations, town halls, etc. 
+          li Be open to realignment or simplification of their offerings, mandates and metrics to clearly reflect that their purpose is to serve the community (vs. their funders).
+          li Collaborate and align funding with other service providers and funders to ensure that the system is efficient, simple, has minimal and justified overlap, and has KPIs, mandates and visions which, although unique, are compatible and drive towards the goal of both increased throughput and growth of the startup ecosystem.
 
 
-  #goals-call-to-action
+#goals-call-to-action
 
-    h2 How can I become involved?
+  h2 How can I become involved?
 
-    p
-      | Join our slack group, and follow us on social media to get the latest
-        updates, news and for resources from our team.
-    p = link_to "Join us on Slack →","https://edmonton-startup-slack-sign-up.herokuapp.com/"
+  p
+    | Join our slack group, and follow us on social media to get the latest
+      updates, news and for resources from our team.
+  p = link_to "Join us on Slack →","https://edmonton-startup-slack-sign-up.herokuapp.com/"
 
