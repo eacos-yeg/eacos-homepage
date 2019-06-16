@@ -38,7 +38,7 @@ title: "EACOS - Service Provider"
   .goal-listings
     .left-col
 
-      .goal
+      .goal.first
         .count
           .bar
         h3 We believe that the entrepreneurial community should:
@@ -47,10 +47,11 @@ title: "EACOS - Service Provider"
           li Strive to represent the collective interests of the community in discussions and consultations vs. their own company’s specific needs and issues
 
 
-      .goal
+      .goal.second
         .count
           .bar
           .bar.two
+          .bar.three
         h3 We believe that the funders should:
         ol
           li Encourage and incentivize the service providers they fund to be more communicative, transparent, and inclusive of the entrepreneurial community
@@ -59,11 +60,10 @@ title: "EACOS - Service Provider"
 
     .right-col
 
-      .goal
+      .goal.first
         .count
           .bar
           .bar.two
-          .bar.three
         h3 We believe that the entrepreneurial service provider community should:
         ol
           li Clearly, consistently, and transparently communicate their offerings, mandates and metrics and demonstrate how they align to the needs of the entrepreneurial community - in particular, how to move from an idea to a company which is attractive to investment.
@@ -72,12 +72,14 @@ title: "EACOS - Service Provider"
           li Collaborate and align funding with other service providers and funders to ensure that the system is efficient, simple, has minimal and justified overlap, and has KPIs, mandates and visions which, although unique, are compatible and drive towards the goal of both increased throughput and growth of the startup ecosystem.
 
 
-#goals-call-to-action
+#goals-call-to-action: .goal-container
+  .left-col
+    h2 How can I become involved?
+    p
+      | Join our slack group, and follow us on social media to get the latest
+        updates, news and for resources from our team.
+    p = link_to "Join our Slack Channel →","https://edmonton-startup-slack-sign-up.herokuapp.com/"
 
-  h2 How can I become involved?
-
-  p
-    | Join our slack group, and follow us on social media to get the latest
-      updates, news and for resources from our team.
-  p = link_to "Join us on Slack →","https://edmonton-startup-slack-sign-up.herokuapp.com/"
+  .right-col
+    = partial "/images/service-provider/sp-cta.svg"
 

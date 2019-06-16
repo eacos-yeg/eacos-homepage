@@ -52,13 +52,13 @@ svg#sp-banner {
   color: white;
   padding-top: 68px;
   overflow: hidden;
+  padding-top: 136px;
+  padding-bottom: 136px;
 
   .goal-container {
     padding-left: 68px;
     padding-right: 68px;
   }
-
-
 
   ol {
     padding-left: 14px;
@@ -88,25 +88,57 @@ svg#sp-banner {
     .bar.four {left: 55px;}
   }
 
-
   .left-col {
     width: 272px;
     float: left;
     margin-right: 68px;
 
     .goal {
-      margin-top: 100px;  
+      margin-top: 136px;
     }
-
   }
+
   .right-col {
     width: 272px;
     float: left;
     margin-left: 68px;
     .goal {
-      margin-top: 200px;  
+      margin-top: 272px;
     }
   }
 }
 
+svg#sp-cta {
+  width: 687px;
+  height: 393px;
+  top: -50px;
+  position: absolute;
+}
+
+#goals-call-to-action {
+  overflow: hidden;
+  position: relative;
+  .goal-container {
+    padding-top: 204px;
+    padding-bottom: 204px;
+  }
+
+  .left-col {
+    margin-left: 68px;
+    float: left;
+    width: 408px;
+    margin-right: 68px;
+    p {
+      font-size: 18px;
+    }
+  }
+
+  .right-col {
+    width: 272px;
+    position: relative;
+    float: left;
+    height: 456px;
+  }
+
+}
 
