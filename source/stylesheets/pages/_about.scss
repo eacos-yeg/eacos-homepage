@@ -80,11 +80,35 @@
       &:nth-child(6){ background: #2B352A; }
       &:nth-child(7){ background: #707B75; }
 
+      &:nth-child(even){
+        .team-bio .bio-img {float: right;}
+      }
     }
 
     .team-bio {
       width: 50%;
       float: left;
+      .company {
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        margin-top:-5px;
+      }
+      .bio-img, .bio-text {
+        width: 50%;
+        float: left;
+      }
+    }
+
+    .bio-img {
+      height: 256px;
+      position: relative;
+
+      svg {
+        transform: scale(0.5);
+        position: absolute;
+        top: -50%;
+        left: -35%;
+      }
     }
   }
 }

@@ -37,6 +37,7 @@ title: "EACOS - Who We Are"
           .team-bio
             - first,last = person.name.split(/\s/)
             .bio-img = partial "/images/about/team/#{first.downcase}-#{last[0].downcase}.svg"
-            h5 = person.name
-            .company = person.company
-            .bio = person.bio
+            .bio-text
+              h5 = person.name
+              .company = person.company
+              .bio = person.bio
