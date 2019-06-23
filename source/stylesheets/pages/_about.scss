@@ -1,0 +1,90 @@
+#about-page {
+
+  .header h1 {
+    color: white;
+    padding-top: 180px;
+    padding-left: 164px;
+    font-size: 50px;
+  }
+
+  #about-mission {
+    position: relative;
+
+    background: #FCECD6;
+    padding: 68px;
+    margin-top: 81px;
+    padding-left: 272px;
+
+    h3 {
+      position: absolute;
+      left: 68px;
+      margin-top: 0;
+      text-transform: uppercase;
+
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .lines {
+      position: absolute;
+      left: 117px;
+      bottom: -134px;
+      z-index: 10;
+    }
+  }
+
+  h3.bio-intros {
+    padding-left: 272px;
+    padding-top: 68px;
+    padding-bottom: 68px;
+    text-transform: uppercase;
+  }
+
+  #about-banner-image {
+    position: absolute;
+    top: -71px;
+    z-index: -1;
+    left: -320px;
+  }
+
+  svg#wwa-lines {
+    width: 87px;
+    height: 268px;
+  }
+
+  svg#wwa-banner {
+    width: 1544px;
+    height: 751px;
+  }
+
+  #team-bios {
+
+    .row {
+      margin-left: -204px;
+      padding-left: 204px;
+      margin-right: -204px;
+      padding-right: 204px;
+      overflow: hidden;
+      padding-top: 100px;
+      padding-bottom: 100px;
+      background: #DF624D;
+      color: white;
+
+      &:nth-child(1){ background: #DF624D; }
+      &:nth-child(2){ background: #707B75; }
+      &:nth-child(3){ background: #2B352A; }
+      &:nth-child(4){ background: #53382A; }
+      &:nth-child(5){ background: #4F4C8A; }
+      &:nth-child(6){ background: #2B352A; }
+      &:nth-child(7){ background: #707B75; }
+
+    }
+
+    .team-bio {
+      width: 50%;
+      float: left;
+    }
+  }
+}

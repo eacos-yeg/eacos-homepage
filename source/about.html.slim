@@ -1,0 +1,42 @@
+---
+title: "EACOS - Who We Are"
+---
+
+
+#about-page: .goal-container
+  #about-banner-image
+    = partial "/images/about/wwa-banner.svg"
+  .header
+    h1 Who We Are
+
+  #about-mission
+    h3 Mission<br>Statement
+
+    p
+      | EACOS is an advocate for Edmonton’s tech-enabled startup community. We are
+        comprised of 13 individuals from scaleups, startups, seed companies, students,
+        and investors.  Our mandate is to be a voice for our peer-startups, activating
+        and aligning resources with the needs of our technology community at large.
+    p
+      | We will do this by encouraging results-based strategies, engaging with our
+        entrepreneurial community, and helping articulate the needs of Edmonton
+        startups to decision makers.  We strive to be trusted advisors to Edmonton’s
+        startup ecosystem of funders, startups, scaleups, institutional support, and
+        government.
+
+    .lines = partial "/images/about/wwa-lines.svg"
+
+
+  h3.bio-intros Meet the Council
+  /- people = data.people
+  /p = people.count
+  #team-bios: .goal-container
+    - data.people.each_slice(2) do |group|
+      .row
+        - group.each do |person|
+          .team-bio
+            - first,last = person.name.split(/\s/)
+            .bio-img = partial "/images/about/team/#{first.downcase}-#{last[0].downcase}.svg"
+            h5 = person.name
+            .company = person.company
+            .bio = person.bio
