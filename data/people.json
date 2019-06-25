@@ -12,7 +12,7 @@
   "name": "Meghan Dear",
   "company": "Enabled Label",
   "company_url": "",
-  "bio": ""
+  "bio": "Meghan Dear is the founder of Localize and Enabled Label, helping to make food and agriculture supply chains more trustworthy and transparent for everyone."
 },{
   "name": "Adrian Banica",
   "company": "Direct-C Limited",
@@ -44,11 +44,12 @@
   "company": "DriveWyze",
   "company_url": "",
   "bio": "Sean Feehan is the Director of Product Development and Business Intelligence at Drivewyze, a smart mobility services company for the transportation industry."
+
 },{
-  "name": "Ashif Mawji",
-  "company": "Rising Tide",
+  "name": "Hazel Foerstner",
+  "company": "Edibly",
   "company_url": "",
-  "bio": "Ashif Mawji is a serial entrepreneur, philanthropist, venture capitalist, mentor and a community builder and is a Venture Partner with Rising Tide. Ashif is also a honorary Colonel with the Canadian Military and chairs the Edmonton Police Foundation."
+  "bio": "Hazel Foerstner is a recent University of Alberta grad and founder of Edibly, a mobile app for finding great plant-based food at local restaurants."
 },{
   "name": "Craig Milne",
   "company": "Little Tree Management",
@@ -59,10 +60,5 @@
   "company": "Macewan Univerisity",
   "company_url": "",
   "bio": ""
-},{
-  "name": "Hazel Foerstner",
-  "company": "Edibly",
-  "company_url": "",
-  "bio": "Hazel Foerstner is a recent University of Alberta grad and founder of Edibly, a mobile app for finding great plant-based food at local restaurants."
 }
 ]

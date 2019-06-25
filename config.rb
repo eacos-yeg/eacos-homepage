@@ -24,7 +24,7 @@ page '/*.txt', layout: false
 # Reload the browser automatically whenever files change
 configure :development do
   activate :livereload
-  set :site_url, "http://localhost:4567"
+  set :site_url, "/"
 end
 
 

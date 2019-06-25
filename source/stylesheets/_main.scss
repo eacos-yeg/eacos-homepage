@@ -20,6 +20,14 @@ h1, h2, h3, h4, h5 {
   margin: 0px 20px;
 }
 
+#navbar .container {
+  width: 816px;
+}
+
+#footer .container {
+  width: 816px;
+}
+
 @media (max-width: 431px) {
   .hide-mobile {
     display: none !important;
