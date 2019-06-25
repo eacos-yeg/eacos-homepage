@@ -1,0 +1,14 @@
+<svg version="1.1" id="left-home-banner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1250.9 1807.1" enable-background="new 0 0 1250.9 1807.1" xml:space="preserve">
+<g id="Group_1248" transform="translate(344 0.456)">
+	<rect data-aos="slide-up" data-os-duration=800 data-aos-offset=500 id="Rectangle_7" x="0" y="0" fill="#2B352A" width="907" height="1806.6"/>
+
+  <g data-aos-delay=300 data-aos-offset=500 >
+	<path data-aos="fade-right" id="Path_422" fill="#DF624D" d="M698.2-0.5C583.2-0.5,490,92.8,490,207.8h416.4C906.4,92.8,813.2-0.5,698.2-0.5z"/>
+	<path data-aos="fade-right" id="Path_423" fill="#DF624D" d="M698.2,208c-115,0-208.2,93.2-208.2,208.2h416.4C906.4,301.2,813.2,208,698.2,208z"/>
+  </g>
+	<path data-aos="fade-up" id="Path_424" fill="#756C64" d="M906,416.6v661.8H489L906,416.6z"/>
+	<path data-aos="fade-up-right" id="Path_464" fill="#756C64" d="M490,416.6v661.8H73L490,416.6z"/>
+	<path id="Path_465" fill="#756C64" d="M73,416.6v661.8h-417L73,416.6z"/>
+</g>
+</svg>

@@ -1,0 +1,12 @@
+<svg id="news-banner" xmlns="http://www.w3.org/2000/svg" width="2448.849" height="1164.353" >
+  <g id="Group_1287" data-name="Group 1287" transform="translate(175.849 490.092)">
+    <g id="Rectangle_96" data-name="Rectangle 96" transform="translate(1504 -33)" fill="#4f4c8a" stroke="#707070" stroke-width="1">
+      <rect width="769" height="707" stroke="none"/>
+      <rect x="0.5" y="0.5" width="768" height="706" fill="none"/>
+    </g>
+    <rect id="Rectangle_9" data-name="Rectangle 9" width="1679.849" height="1164.353" transform="translate(-175.849 -490.092)" fill="#756c64"/>
+    <path id="Path_499" data-name="Path 499" d="M0,0H949.217L0,696.881Z" transform="translate(1503.775 673.881) rotate(180)" fill="#2b352a"/>
+    <path id="Path_497" data-name="Path 497" d="M323.92,0C145.024,0,0,145.024,0,323.922H647.841C647.841,145.024,502.817,0,323.92,0Z" transform="translate(1828.414 674.167) rotate(180)" fill="#fcecd6"/>
+    <path id="Path_498" data-name="Path 498" d="M323.92,0C145.024,0,0,145.024,0,323.922H647.841C647.841,145.024,502.817,0,323.92,0Z" transform="translate(1828.414 349.922) rotate(180)" fill="#fcecd6"/>
+  </g>
+</svg>
