@@ -1,8 +1,30 @@
 ---
-navstyle: "dark"
 title: "EACOS - Contact Us"
 ---
 
-.contact-header.panel.header-panel.dark-blue-panel: .container
 
-  h1 Get in touch with us.
+#contact-page: .goal-container
+  #contact-banner-image
+    = partial "/images/contact/ca-banner.svg"
+  .header
+    h1 Contact Us
+
+  form#contactform action="https://usebasin.com/f/bfb3e75d78e1" method="post"
+    h2 Get in touch
+
+
+
+    label for="contact_name" Name
+    input#contact_name autofocus="autofocus" name="contact[name]" type="text" placeholder="" required="required"
+
+
+    label for="company_name" Company
+    input#company_name autofocus="autofocus" name="contact[company_name]" type="text" placeholder=""
+
+
+    label for="email_address" Email Address
+    input#email_address autofocus="autofocus" name="contact[email_address]" type="email" placeholder=""
+
+
+    button class="send-button button dark" id="send"
+      | Submit
