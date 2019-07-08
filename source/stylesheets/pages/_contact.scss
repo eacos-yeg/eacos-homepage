@@ -1,4 +1,54 @@
-#contact-page {
+svg#ca-banner {
+  width: 1170px;
+  height: 517px;
+  margin-left: -343px;
+}
 
+#contact-page {
+  position: relative;
+
+  .goal-container {
+    min-height: 1200px;
+  }
+
+  h1 {
+    position: absolute;
+    top: 143px;
+    color: #fff;
+  }
+
+  #contact-banner-image {
+    position: relative;
+  }
+
+  form {
+    background-color: #FCECD6;
+    position: absolute;
+    top: 380px;
+    padding: 100px;
+    width: 100%;
+
+    label {
+      font-weight: normal;
+    }
+
+    input[type=text],input[type=email], textarea {
+      margin-bottom: 17px;
+      width: 425px;
+    }
+
+    /*input[type=textarea] {*/
+      /*height: 200px;*/
+    /*}*/
+
+    #ca-submit-btn {
+      float: right;
+      margin-right: -24px;
+    }
+  }
+
+  #ca-submit-btn {
+    transform: scale(0.5);
+  }
 
 }

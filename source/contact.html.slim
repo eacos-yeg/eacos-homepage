@@ -6,25 +6,36 @@ title: "EACOS - Contact Us"
 #contact-page: .goal-container
   #contact-banner-image
     = partial "/images/contact/ca-banner.svg"
-  .header
-    h1 Contact Us
+  h1 Contact Us
 
   form#contactform action="https://usebasin.com/f/bfb3e75d78e1" method="post"
-    h2 Get in touch
+
+    .row
+      .col-md-3: h2 Get in touch
+      .col-md-9
+
+        label for="contact_name" Name *
+        br
+        input#contact_name autofocus="autofocus" name="contact[name]" type="text" placeholder="" required="required"
+        br
 
 
+        label for="company_name" Company (optional)
+        br
+        input#company_name name="contact[company_name]" type="text" placeholder=""
+        br
 
-    label for="contact_name" Name
-    input#contact_name autofocus="autofocus" name="contact[name]" type="text" placeholder="" required="required"
-
-
-    label for="company_name" Company
-    input#company_name autofocus="autofocus" name="contact[company_name]" type="text" placeholder=""
-
-
-    label for="email_address" Email Address
-    input#email_address autofocus="autofocus" name="contact[email_address]" type="email" placeholder=""
+        label for="email_address" Email Address *
+        br
+        input#email_address name="contact[email_address]" type="email" placeholder="" required="required"
+        br
 
 
-    button class="send-button button dark" id="send"
-      | Submit
+        label for="message_content" Message
+        br
+        textarea#message_content name="contact[message_content]" placeholder="" rows="10"
+        br
+
+
+        input#ca-submit-btn type="image" src="/images/contact/ca-submit-button.png" border="0" alt="Submit"
+
