@@ -42,7 +42,7 @@ end
 
 # Build-specific configuration
 configure :build do
-  set :site_url, "http://eacos.github.io/eacos-homepage/"
+  set :site_url, "https://www.eacos.ca"
 
   # Ignore the partials in stylesheets
   ignore 'stylesheets/_*.scss'
